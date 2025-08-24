@@ -224,6 +224,14 @@ body::after {
   text-align: left;
 }
 
+.whatsapp:hover {
+  background: #25d366;
+}
+
+.discord:hover {
+  background: #5865f2;
+}
+
 .instagram:hover {
   background: linear-gradient(
     45deg,

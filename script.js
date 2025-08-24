@@ -121,7 +121,13 @@ document.querySelectorAll(".link-item").forEach((link) => {
     glowDiv.style.left = centerX - glowOffset + "px";
     glowDiv.style.top = centerY - glowOffset + "px";
 
-    if (this.classList.contains("instagram")) {
+    if (this.classList.contains("whatsapp")) {
+      glowDiv.style.background =
+        "radial-gradient(circle, rgba(37, 211, 102, 0.3), transparent)";
+    } else if (this.classList.contains("discord")) {
+      glowDiv.style.background =
+        "radial-gradient(circle, rgba(88, 101, 242, 0.3), transparent)";
+    } else if (this.classList.contains("instagram")) {
       glowDiv.style.background =
         "radial-gradient(circle, rgba(225, 48, 108, 0.3), transparent)";
     } else if (this.classList.contains("youtube")) {
